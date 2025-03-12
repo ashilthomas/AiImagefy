@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 function MainLayout() {
     const {showLogin}=useContext(AppContext)
   return (
-    <div className='px-4 sm:px-10 md:px-14 lg:px-28 min-h-screen bg-gradient-to-b from-purple-50-50 to-purple-50-50 '>
+    <div className="px-4 sm:px-10 md:px-14 lg:px-28 min-h-screen bg-gradient-to-b from-white to-blue-100">
         <ToastContainer position='top-right'/>
         <UserNav/>
         <Outlet/>
